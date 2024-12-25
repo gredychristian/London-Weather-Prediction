@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klasifikasi Buah</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Global Radiation
+        </h1>
+    </header>
+    <form>
+        <label for="sunshine">Sunshine</label><br>
+        <input type="number" id="sunshine" placeholder="sunshine" min="0" max="15"><br><br>
+        
+        <label for="max_temp">Max Temp</label><br>
+        <input type="number" id="max_temp" placeholder="max_temp" min="0" max="15"><br><br>
+
+        <label for="mean_temp">Mean Temp</label><br>
+        <input type="number" id="mean_temp" placeholder="mean_temp" min="0" max="15"><br><br>
+        
+        <label for="min_temp">Min Temp</label><br>
+        <input type="number" id="min_temp" placeholder="min_temp" min="0" max="15"><br><br>
+
+        <button type="button" id="kirim">Kirim</button>
+    </form>
+
+    <div id="pop-up" style="display: none;"></div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
